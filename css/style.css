@@ -1,23 +1,22 @@
-.ts-header{
-    padding: 10px 30px;
+.ts-header {
+  padding: 10px 30px;
 }
 
-.ts-header .navbar-brand{
-    color: #ec6058;
+.ts-header .navbar-brand {
+  color: #ec6058;
 }
 
-.ts-header .nav li a{
-    color: rgba(0,0,0,.9);
+.ts-header .nav li a {
+  color: rgba(0, 0, 0, 0.9);
 }
 
-.line{
-   color: black; 
-   padding-left: 35px; 
-   padding-right: 38px;
-   margin-top: -15px;
-   background-color: rgb(168, 174, 179);
-   padding-bottom: 100px;
-   
+.line {
+  color: black;
+  padding-left: 35px;
+  padding-right: 38px;
+  margin-top: -15px;
+  background-color: rgb(168, 174, 179);
+  padding-bottom: 100px;
 }
 /* .paraHeader2{
     margin-left: 40px;
@@ -25,39 +24,37 @@
          position: absolute; 
          top: 90px;
 }  */
-.ts-main{
-    background-color: #225555; 
+.ts-main {
+  background-color: #225555;
   height: 500px;
-  display:flex;
+  display: flex;
+  padding-bottom: 300px;
 }
 
-.ts-main .katherine-heading{
-    color: #ec6058; 
-    font-size: 90px; 
-    margin-left: -110px;
+.ts-main .katherine-heading {
+  color: #ec6058;
+  font-size: 90px;
+  margin-left: -110px;
 }
-.book{
-    display: flex; 
-    margin-left: 190px;
+.book {
+  display: flex;
+  margin-left: 190px;
 }
-.book-header h1{
-    color: #ec6058;
-    font-size: 60px;
-    font-weight: bold;
-    margin-top: 150px;
+.book-header h1 {
+  color: #ec6058;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 150px;
 }
-.footer{
-    
-              padding: 25px;
-              color: white;
-              margin: auto;
-              background-color: #225555;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              
-            
+.footer {
+  padding: 25px;
+  color: white;
+  margin: auto;
+  background-color: #225555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
