@@ -3,4 +3,11 @@
         display: block;
         width: 100%;
     }
+    .media{
+        background-color:#0b322b ;
+       padding:20px 0px 50px 0px;
+       font-size:20px;
+       text-align: center;
+      }
+      
   }

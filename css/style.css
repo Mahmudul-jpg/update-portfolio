@@ -19,6 +19,7 @@ a{
 
 .ts-header a .fs-4{
 color: red;
+background-color: rgb(201, 200, 197);
 }
 
 
@@ -58,7 +59,20 @@ color: #fff;
 padding: 30px;
 }
 
-
+.media{
+  background-color:#0b322b ;
+ padding:50px 100px 50px 200px;
+ font-size: 60px;
+}
+.btn{
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 10px; */
+}
 
 
 
