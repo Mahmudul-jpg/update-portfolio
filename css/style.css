@@ -1,41 +1,71 @@
-*,
-*:after,
-*:before{
-  -webkit-box-sizing: border-box;
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-}
-:active,
-:hover,
-:focus{
-  outline:0 !important;
-  outline-offset: 0;
+/*Common CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
 
-a,
-a:hover{
-  text-decoration: none;
+
+a{
+  list-style-type: none;
 }
 
-a:hover{
-color:var(--primary-color) !important;
+.clearfix{
+  clear: both;
 }
 
-ul,
-ol{
-  margin:0;
-  padding:0;
+
+/*Header style*/
+
+.ts-header a .fs-4{
+color: red;
 }
 
 
 
+/*Profile style*/
+
+.ts-profile{
+  position: relative;
+  background-color:#0b322b;
+  padding: 40px 0;
+  margin-top: 150px;
+}
+
+
+.ts-profile img{
+ margin-top: -150px;
+}
+
+
+.ts-profile .desc h2{
+  font-size: 75px;
+  color:#BE6D54;
+}
+
+
+/*Footer Style*/
+
+.footer-top {
+background-color: #e9e6df;
+}
+
+
+.footer-bottom {
+background-color: #0b322b;
+text-align: center;
+color: #fff;
+padding: 30px;
+}
 
 
 
 
 
-.ts-header {
+
+
+
+/* .ts-header {
   padding: 10px 30px;
 }
 
@@ -61,7 +91,7 @@ ol{
          position: absolute; 
          top: 90px;
 }  */
-.ts-main {
+/* .ts-main {
   background-color: #225555;
   height: 500px;
   display: flex;
@@ -72,8 +102,8 @@ ol{
   color: #ec6058;
   font-size: 90px;
   margin-left: -110px;
-}
-.book {
+} */
+/* .book {
   display: flex;
   margin-left: 190px;
 }
@@ -94,7 +124,7 @@ ol{
 }
 body {
   overflow-x: hidden;
-}
+} */
 /* .show-btn{
   position: absolute;
   left:75%;

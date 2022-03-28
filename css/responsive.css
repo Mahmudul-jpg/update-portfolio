@@ -1,0 +1,6 @@
+@media screen and (max-width: 667px) {
+    .ts-header .justify-content-end .nav li{
+        display: block;
+        width: 100%;
+    }
+  }
