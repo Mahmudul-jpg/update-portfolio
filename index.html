@@ -13,7 +13,7 @@
 
 <!-- Pure CSS -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive-style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
   </head>
   <body>
@@ -99,9 +99,9 @@
       </div>
 
    <!-- book section -->
-   <section>
+   <!-- <section>
     <div class="container-fluid"> <!---Header Bottom-->
-      <div class="row">
+      <!-- <div class="row">
         
       </div>
       <div class="row">
@@ -124,6 +124,30 @@
        </div>
       </div>
  </div>
+   </section> --> 
+
+   <section>
+     <div class="container">
+       <div class="row"> <img src="./images/book.jpeg" style="margin-top: 10px" /></div>
+       <div class="row text-center" >
+        <h1>
+          Publications
+        </h1>
+        <p style="margin-top: 50px">
+          I'm a paragraph. Click here to add your own text<br />
+          and edit me. It’s easy. Just click “Edit Text” or<br />
+          double click me to add your own content and make<br />
+          changes to the font.
+        </p>
+        <a
+              class="navbar-brand"
+              href="pub.html"
+              style="color: black; font-weight: bold; cursor: pointer"
+              >Buy Publications</a
+            >
+       </div>
+
+     </div>
    </section>
       <!-- <div class="book" >
         <img src="./images/book.jpeg" style="margin-top: 60px" />
@@ -147,51 +171,38 @@
         </div> -->
 
         <!-- Media section -->
-        <div>
-            <div style="background-color: rgb(200, 214, 214); display: flex">
-              <h1
-                style="
-                  margin-left: 300px;
-                  font-size: 58px;
-                  padding-top: 90px;
-                  color: #ec6058;
-                "
-              >
-                Media <br />
-                Appearances
-              </h1>
-              <p style="margin-top: 100px; margin-left: 190px; color: #225555">
-                I'm a paragraph. Click here to add your own text and <br />
-                edit me. Let your users get to know you.
-              </p>
+        <section class="ts-inmedia" style="background-color: rgb(200, 214, 214);">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h1  style="
+                margin-left: 150px;
+                font-size: 58px;
+                padding-top: 90px;
+                color: #ec6058;
+              ">Media<br>
+                  Appearances</h1>
+              </div>
+              <div class="col">
+                <p style="margin-top: 100px; margin-left: 140px; color: #225555">I'm a paragraph. Click here to add your own text and<br>
+                  edit me. Let your users get to know you.</p>
+              </div>
             </div>
-      
-            <div style="background-color: rgb(200, 214, 214)">
+            <div class="row" style="background-color: rgb(200, 214, 214)">
               <a
-                class="navbar-brand"
+                class="view"
                 href="media.html"
-                style="
-                  margin-left: 650px;
-                  font-size: 15px;
-                  padding-right: 750px;
-                  margin-top: 300px;
-                  font-weight: bold;
-                  color: #225555;
-                "
                 >View All</a
               >
-      
-              <video
-                width="800"
-                height="500"
-                style="margin-left: 300px; margin-bottom: -250px"
-                controls
-              >
-                <source src="mov_bbb.mp4" type="video/mp4" />
-                <source src="mov_bbb.ogg" type="video/ogg" />
-                Your browser does not support HTML video.
-              </video>
             </div>
+            <div class="row" >
+              <div style="margin-bottom:-200px;padding-left: 10px;" >
+                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/Z9NQatne0xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+      
+            </div>
+        </section>
+        
       
             <div style="background-color: white; margin: 300px; display: flex">
               <h1 style="font-size: 60px">
