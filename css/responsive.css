@@ -9,5 +9,11 @@
        font-size:20px;
        text-align: center;
       }
-      
+      .btn-div{
+          padding-left:200px;
+      }
+.main-div{
+    padding-left:0;
+}
+
   }
