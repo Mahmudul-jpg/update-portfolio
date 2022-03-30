@@ -19,7 +19,7 @@ a{
 
 .ts-header a .fs-4{
 color: red;
-background-color: rgb(201, 200, 197);
+background-color: #E9E6DF;
 }
 
 
@@ -93,6 +93,20 @@ padding: 30px;
                   font-weight: bold;
                   color: #225555;
                   text-decoration:none;
+}
+.ts-pa{
+  background-color: white; 
+  margin: 250px 200px 100px 200px;
+}
+.ts-pa #col-patwo{
+  margin-left: 160px; 
+  margin-top: 30px;
+}
+.rowI .column-1:first-child {
+  padding-left: 0;
+}
+.rowI .column-2:last-child {
+  padding-right: 0;
 }
 
 /* .ts-header {

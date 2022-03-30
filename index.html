@@ -92,15 +92,25 @@
 
 
 <!-- 3 images section -->
-    <div class="img-fluid" style="display: flex;">
+<section >
+  <div class="container-fluid">
+    <div class="row rowI">
+      <div class="col column-1"><img src="./images/image1.jpeg" class="img-fluid" alt="..." style="width: 100%; height:auto;">
+      </div>
+      <div class="col column-2"><img src="./images/image2.jpeg" class="img-fluid" alt="..."  style="width: 100%; height:auto;"></div>
+      <div class="col column-3"><img src="./images/image3.jpeg" class="img-fluid" alt="..."  style="width: 100%; height:auto;"></div>
+    </div>
+  </div>
+</section>
+    <!-- <div class="img-fluid" style="display: flex;">
       <img src="./images/image1.jpeg" class="img-fluid" alt="..." style="width: 100%; height:auto;">
       <img src="./images/image2.jpeg" class="img-fluid" alt="..."  style="width: 100%; height:auto;">
       <img src="./images/image3.jpeg" class="img-fluid" alt="..."  style="width: 100%; height:auto;">
-      </div>
+      </div> -->
 
    <!-- book section -->
    <!-- <section>
-    <div class="container-fluid"> <!---Header Bottom-->
+    <div class="container-fluid"> Header Bottom-->
       <!-- <div class="row">
         
       </div>
@@ -128,23 +138,31 @@
 
    <section>
      <div class="container">
-       <div class="row"> <img src="./images/book.jpeg" style="margin-top: 10px" /></div>
-       <div class="row text-center" >
-        <h1>
-          Publications
-        </h1>
-        <p style="margin-top: 50px">
-          I'm a paragraph. Click here to add your own text<br />
-          and edit me. It’s easy. Just click “Edit Text” or<br />
-          double click me to add your own content and make<br />
-          changes to the font.
-        </p>
-        <a
-              class="navbar-brand"
-              href="pub.html"
-              style="color: black; font-weight: bold; cursor: pointer"
-              >Buy Publications</a
-            >
+       <div class="row">
+        <div class="col">
+          <img src="./images/book.jpeg" style="margin-top: 10px" />
+        </div> 
+
+        <div class="col">
+          <div class="row text-center" >
+            <h1 style="padding-top:130px;font-size:57px;font-weight: bold;color:#BE6D54;">
+              Publications
+            </h1>
+            <p style="margin-top: 50px">
+              I'm a paragraph. Click here to add your own text<br />
+              and edit me. It’s easy. Just click “Edit Text” or<br />
+              double click me to add your own content and make<br />
+              changes to the font.
+            </p>
+            <a
+                  class="navbar-brand"
+                  href="pub.html"
+                  style="color:#0B322B; font-weight: bold; cursor: pointer"
+                  >Buy Publications</a
+                >
+        </div> 
+        </div>
+      
        </div>
 
      </div>
@@ -202,25 +220,69 @@
       
             </div>
         </section>
+        <!--article and post section-->
+      <section class="ts-pa">
+        <div class="container">
+          <div class="row">
+            <div class="col" id="col-pa"><h1 style="font-size: 57px">
+              Posts<br />
+              & Articles
+            </h1></div>
+            <div class="col" id="col-patwo"><p style="font-size:15px;">
+              I'm a paragraph. Click here to add your own text and 
+              edit me. Let your users get to know you.
+            </p>
+            <a class="navbar-brand" href="blog.html" style="font-size:15px;font-weight:bold;">Read All</a>
+          </div>
+          </div>
+        </div>
         
-      
-            <div style="background-color: white; margin: 300px; display: flex">
-              <h1 style="font-size: 60px">
-                Posts<br />
-                & Articles
-              </h1>
-              <div style="margin-left: 160px; margin-top: 30px">
-                <p>
-                  I'm a paragraph. Click here to add your own text and <br />
-                  edit me. Let your users get to know you.
-                </p>
-                <a class="navbar-brand" href="blog.html">Read All</a>
-              </div>
-            </div>
+      </section>
+          
       
 
             <!-- card section -->
-            <div style="display: flex; position: relative; bottom: 200px;  justify-content: center;
+<section style="margin-bottom:50px;">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;margin-right:20px;">
+          <img src="./images/image1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text" style="cursor:pointer;  font-weight: bold;
+            ">SOn-Site: Beyond the Germanic Reconstruction</p>
+          </div>
+          <hr style="margin: 17px" />
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;margin-right:20px;">
+          <img src="./images/image2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text" style="cursor:pointer;  font-weight: bold;
+            ">5 Fascinating Prehistoric Currencies</p>
+          </div>
+          <hr style="margin: 17px" />
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/image3.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text" style="cursor:pointer;  font-weight: bold;
+            ">Art & Culture in Prehistoric Halland</p>
+          </div>
+          <hr style="margin: 17px" />
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+
+
+            <!-- <div style="display: flex; position: relative; bottom: 200px;  justify-content: center;
             " >
                 <div class="card" style="width: 18rem;margin-right:20px;">
                     <img src="./images/image1.jpeg" class="card-img-top" alt="...">
@@ -247,7 +309,7 @@
                     </div>
                     <hr style="margin: 17px" />
                   </div>
-          </div>
+          </div> -->
       
           <!-- mountain image section -->
           <div>
