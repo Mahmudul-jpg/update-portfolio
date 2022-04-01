@@ -1,105 +1,96 @@
 /*Common CSS*/
-*{
+* {
   margin: 0;
   padding: 0;
   outline: 0;
 }
 
-
-a{
+a {
   list-style-type: none;
 }
 
-.clearfix{
+.clearfix {
   clear: both;
 }
 
-
 /*Header style*/
 
-.ts-header a .fs-4{
-color: red;
-background-color: #E9E6DF;
+.ts-header a .fs-4 {
+  color: red;
+  background-color: #e9e6df;
 }
-
-
 
 /*Profile style*/
 
-.ts-profile{
+.ts-profile {
   position: relative;
-  background-color:#0b322b;
+  background-color: #0b322b;
   padding: 40px 0;
   margin-top: 150px;
 }
 
-
-.ts-profile img{
- margin-top: -150px;
+.ts-profile img {
+  margin-top: -150px;
 }
 
-
-.ts-profile .desc h2{
+.ts-profile .desc h2 {
   font-size: 75px;
-  color:#BE6D54;
+  color: #be6d54;
 }
-
 
 /*Footer Style*/
 
 .footer-top {
-background-color: #e9e6df;
+  background-color: #e9e6df;
 }
-
 
 .footer-bottom {
-background-color: #0b322b;
-text-align: center;
-color: #fff;
-padding: 30px;
+  background-color: #0b322b;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
 }
 
-.media{
-  background-color:#0b322b ;
- padding:50px 100px 50px 200px;
- font-size: 60px;
+.media {
+  background-color: #0b322b;
+  padding: 50px 100px 50px 200px;
+  font-size: 60px;
 }
- .btn{
+.btn {
   border: none;
   color: white;
-  padding: 15px 32px; 
-   text-align: center;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
-  display: inline-block; 
+  display: inline-block;
   font-size: 10px;
- } 
-.btn-div{
-  padding-left:780px;
-
 }
-#card-image{
- width:100%;
-  height:250px;
+.btn-div {
+  padding-left: 780px;
 }
-#img-about{
+#card-image {
+  width: 100%;
+  height: 250px;
+}
+/* #img-about{
   margin-bottom: -450px;
    margin-left: 150px;
-}
-.view{
+} */
+.view {
   margin-left: 450px;
-                  font-size: 15px;
-                  padding-right: 750px;
-                  margin-top: 50px;
-                  font-weight: bold;
-                  color: #225555;
-                  text-decoration:none;
+  font-size: 15px;
+  padding-right: 750px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #225555;
+  text-decoration: none;
 }
-.ts-pa{
-  background-color: white; 
+.ts-pa {
+  background-color: white;
   margin: 250px 200px 100px 200px;
 }
-.ts-pa #col-patwo{
-  margin-left: 160px; 
+.ts-pa #col-patwo {
+  margin-left: 160px;
   margin-top: 30px;
 }
 .rowI .column-1:first-child {
